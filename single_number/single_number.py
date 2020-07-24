@@ -20,7 +20,12 @@ def single_number(arr):
         if arr[i] not in repeated:
             return arr[i]
 
-
+# def single_number(arr):
+#     _list = list(arr)
+#     our_set = set(_list)
+#     print(our_set)
+#     single = our_set.pop()
+#     return single
 if __name__ == '__main__':
     # Use the main function to test your implementation
     arr = [1, 1, 4, 4, 5, 5, 3, 3, 9, 0, 0]
